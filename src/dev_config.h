@@ -142,6 +142,17 @@ static struct device_config {
         .kernel_version = KERNEL_VERSION(5, 10, 107),
         .kimg_to_lm = pixel_kimg_to_lm,
         .find_kbase = noop_kbase,
+    },
+    {
+        /* BlueJay 12.0.0 (SD2A.220123.051.A3, Apr 2022) */
+        .name = "Google Pixel 6a",
+        .model = "Pixel 6a",
+        .android_version = 12,
+        .android_security_patch.year = 2022,
+        .android_security_patch.month = 4,
+        .kernel_version = KERNEL_VERSION(5, 10, 66),
+        .kimg_to_lm = pixel_kimg_to_lm,
+        .find_kbase = noop_kbase,
     }
 };
 
