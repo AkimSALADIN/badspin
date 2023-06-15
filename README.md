@@ -1,3 +1,5 @@
+## FORKED from [@0xkol](https://github.com/0xkol/badspin)
+
 # Bad Spin: Android Binder LPE
 
 Author: Moshe Kol
@@ -34,6 +36,8 @@ $ make list
 1: Samsung Galaxy S21 Ultra, Android 12 (3/2022), kernel 5.4.129
 2: Google Pixel 6, Android 12 (5/2022), kernel 5.10.66
 3: Google Pixel 6, Android 13 (9/2022), kernel 5.10.107
+
+4: Google Pixel 6A, Android 12 (4/2022), kernel 5.10.66
 ```
 
 ## Support a new device
