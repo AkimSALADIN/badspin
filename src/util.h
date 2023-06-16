@@ -81,7 +81,6 @@ typedef uint64_t u64;
 #define SYSCHK(x) ({                  \
   __typeof__(x) __res = (x);          \
   if (__res == (__typeof__(x))-1) {   \
-    perror("epoll_ctl");              \
     LOG("SYSCHK(" #x ")");            \
     exit(1);                          \
   }                                   \
